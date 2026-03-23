@@ -28,7 +28,7 @@
   },
   "id" : 1,
   "lastModifiedAgent" : "structurizr-ui",
-  "lastModifiedDate" : "2026-03-19T02:05:11Z",
+  "lastModifiedDate" : "2026-03-19T17:42:46Z",
   "model" : {
     "people" : [ {
       "description" : "Learns software architecture.",
@@ -163,7 +163,7 @@
   "views" : {
     "configuration" : {
       "branding" : { },
-      "lastSavedView" : "Context",
+      "lastSavedView" : "Containers",
       "metadataSymbols" : "SquareBrackets",
       "styles" : {
         "elements" : [ {
@@ -188,7 +188,7 @@
     },
     "containerViews" : [ {
       "automaticLayout" : {
-        "applied" : false,
+        "applied" : true,
         "edgeSeparation" : 0,
         "implementation" : "Graphviz",
         "nodeSeparation" : 300,
@@ -196,30 +196,34 @@
         "rankSeparation" : 300,
         "vertices" : false
       },
+      "dimensions" : {
+        "height" : 2699,
+        "width" : 1925
+      },
       "elements" : [ {
         "id" : "1",
-        "x" : 0,
-        "y" : 0
+        "x" : 200,
+        "y" : 160
       }, {
         "id" : "2",
-        "x" : 0,
-        "y" : 0
+        "x" : 900,
+        "y" : 160
       }, {
         "id" : "4",
-        "x" : 0,
-        "y" : 0
+        "x" : 525,
+        "y" : 860
       }, {
         "id" : "5",
-        "x" : 0,
-        "y" : 0
+        "x" : 525,
+        "y" : 1460
       }, {
         "id" : "6",
-        "x" : 0,
-        "y" : 0
+        "x" : 525,
+        "y" : 2060
       }, {
         "id" : "9",
-        "x" : 0,
-        "y" : 0
+        "x" : 1275,
+        "y" : 2060
       } ],
       "externalSoftwareSystemBoundariesVisible" : false,
       "key" : "Containers",
@@ -254,19 +258,19 @@
       },
       "elements" : [ {
         "id" : "1",
-        "x" : 199,
+        "x" : 200,
         "y" : 159
       }, {
         "id" : "2",
-        "x" : 199,
+        "x" : 200,
         "y" : 859
       }, {
         "id" : "3",
-        "x" : 899,
+        "x" : 900,
         "y" : 559
       }, {
         "id" : "9",
-        "x" : 1649,
+        "x" : 1650,
         "y" : 559
       } ],
       "enterpriseBoundaryVisible" : true,
