@@ -1,0 +1,140 @@
+2026-03-24T17:10:37.096Z  INFO 6 --- [main] com.structurizr.server.Local             : ***********************************************************************************
+2026-03-24T17:10:37.175Z  INFO 6 --- [main] com.structurizr.server.Local             :   _____ _                   _              _          
+2026-03-24T17:10:37.175Z  INFO 6 --- [main] com.structurizr.server.Local             :  / ____| |                 | |            (_)         
+2026-03-24T17:10:37.175Z  INFO 6 --- [main] com.structurizr.server.Local             : | (___ | |_ _ __ _   _  ___| |_ _   _ _ __ _ _____ __ 
+2026-03-24T17:10:37.175Z  INFO 6 --- [main] com.structurizr.server.Local             :  \___ \| __| '__| | | |/ __| __| | | | '__| |_  / '__|
+2026-03-24T17:10:37.175Z  INFO 6 --- [main] com.structurizr.server.Local             :  ____) | |_| |  | |_| | (__| |_| |_| | |  | |/ /| |   
+2026-03-24T17:10:37.175Z  INFO 6 --- [main] com.structurizr.server.Local             : |_____/ \__|_|   \__,_|\___|\__|\__,_|_|  |_/___|_|   
+2026-03-24T17:10:37.175Z  INFO 6 --- [main] com.structurizr.server.Local             :                                                       
+2026-03-24T17:10:37.205Z  INFO 6 --- [main] com.structurizr.server.Local             : v2026.03.06
+2026-03-24T17:10:37.205Z  INFO 6 --- [main] com.structurizr.server.Local             : ***********************************************************************************
+2026-03-24T17:10:37.210Z  INFO 6 --- [main] com.structurizr.server.Local             :  - structurizr.authentication: none
+2026-03-24T17:10:37.222Z  INFO 6 --- [main] com.structurizr.server.Local             :  - structurizr.autorefreshinterval: 0
+2026-03-24T17:10:37.225Z  INFO 6 --- [main] com.structurizr.server.Local             :  - structurizr.autosaveinterval: 5000
+2026-03-24T17:10:37.230Z  INFO 6 --- [main] com.structurizr.server.Local             :  - structurizr.cache: none
+2026-03-24T17:10:37.236Z  INFO 6 --- [main] com.structurizr.server.Local             :  - structurizr.data: file
+2026-03-24T17:10:37.237Z  INFO 6 --- [main] com.structurizr.server.Local             :  - structurizr.datadirectory: /usr/local/structurizr
+2026-03-24T17:10:37.240Z  INFO 6 --- [main] com.structurizr.server.Local             :  - structurizr.debug: false
+2026-03-24T17:10:37.244Z  INFO 6 --- [main] com.structurizr.server.Local             :  - structurizr.editable: true
+2026-03-24T17:10:37.248Z  INFO 6 --- [main] com.structurizr.server.Local             :  - structurizr.logging.filename: /usr/local/structurizr/.structurizr/logs/structurizr.log
+2026-03-24T17:10:37.251Z  INFO 6 --- [main] com.structurizr.server.Local             :  - structurizr.network.timeout: 60000
+2026-03-24T17:10:37.252Z  INFO 6 --- [main] com.structurizr.server.Local             :  - structurizr.network.urls.allowed: .*
+2026-03-24T17:10:37.252Z  INFO 6 --- [main] com.structurizr.server.Local             :  - structurizr.search: lucene
+2026-03-24T17:10:37.253Z  INFO 6 --- [main] com.structurizr.server.Local             :  - structurizr.themes: /usr/local/structurizr/themes/
+2026-03-24T17:10:37.254Z  INFO 6 --- [main] com.structurizr.server.Local             :  - structurizr.workspace.maxsize: 1MB
+2026-03-24T17:10:37.257Z  INFO 6 --- [main] com.structurizr.server.Local             :  - structurizr.workspace.threads: 10
+2026-03-24T17:10:37.258Z  INFO 6 --- [main] com.structurizr.server.Local             :  - structurizr.workspaces: 1
+2026-03-24T17:10:37.260Z  INFO 6 --- [main] com.structurizr.server.Local             : ***********************************************************************************
+2026-03-24T17:10:37.261Z  INFO 6 --- [main] com.structurizr.server.Local             : Themes:
+2026-03-24T17:10:37.265Z  INFO 6 --- [main] com.structurizr.server.Local             : ***********************************************************************************
+2026-03-24T19:07:20.511Z  INFO 8 --- [main] com.structurizr.server.Local             : ***********************************************************************************
+2026-03-24T19:07:20.522Z  INFO 8 --- [main] com.structurizr.server.Local             :   _____ _                   _              _          
+2026-03-24T19:07:20.523Z  INFO 8 --- [main] com.structurizr.server.Local             :  / ____| |                 | |            (_)         
+2026-03-24T19:07:20.523Z  INFO 8 --- [main] com.structurizr.server.Local             : | (___ | |_ _ __ _   _  ___| |_ _   _ _ __ _ _____ __ 
+2026-03-24T19:07:20.524Z  INFO 8 --- [main] com.structurizr.server.Local             :  \___ \| __| '__| | | |/ __| __| | | | '__| |_  / '__|
+2026-03-24T19:07:20.525Z  INFO 8 --- [main] com.structurizr.server.Local             :  ____) | |_| |  | |_| | (__| |_| |_| | |  | |/ /| |   
+2026-03-24T19:07:20.526Z  INFO 8 --- [main] com.structurizr.server.Local             : |_____/ \__|_|   \__,_|\___|\__|\__,_|_|  |_/___|_|   
+2026-03-24T19:07:20.526Z  INFO 8 --- [main] com.structurizr.server.Local             :                                                       
+2026-03-24T19:07:20.527Z  INFO 8 --- [main] com.structurizr.server.Local             : v2026.03.06
+2026-03-24T19:07:20.528Z  INFO 8 --- [main] com.structurizr.server.Local             : ***********************************************************************************
+2026-03-24T19:07:20.529Z  INFO 8 --- [main] com.structurizr.server.Local             :  - structurizr.authentication: none
+2026-03-24T19:07:20.529Z  INFO 8 --- [main] com.structurizr.server.Local             :  - structurizr.autorefreshinterval: 0
+2026-03-24T19:07:20.530Z  INFO 8 --- [main] com.structurizr.server.Local             :  - structurizr.autosaveinterval: 5000
+2026-03-24T19:07:20.530Z  INFO 8 --- [main] com.structurizr.server.Local             :  - structurizr.cache: none
+2026-03-24T19:07:20.533Z  INFO 8 --- [main] com.structurizr.server.Local             :  - structurizr.data: file
+2026-03-24T19:07:20.536Z  INFO 8 --- [main] com.structurizr.server.Local             :  - structurizr.datadirectory: /usr/local/structurizr
+2026-03-24T19:07:20.538Z  INFO 8 --- [main] com.structurizr.server.Local             :  - structurizr.debug: false
+2026-03-24T19:07:20.539Z  INFO 8 --- [main] com.structurizr.server.Local             :  - structurizr.editable: true
+2026-03-24T19:07:20.539Z  INFO 8 --- [main] com.structurizr.server.Local             :  - structurizr.logging.filename: /usr/local/structurizr/.structurizr/logs/structurizr.log
+2026-03-24T19:07:20.542Z  INFO 8 --- [main] com.structurizr.server.Local             :  - structurizr.network.timeout: 60000
+2026-03-24T19:07:20.546Z  INFO 8 --- [main] com.structurizr.server.Local             :  - structurizr.network.urls.allowed: .*
+2026-03-24T19:07:20.547Z  INFO 8 --- [main] com.structurizr.server.Local             :  - structurizr.search: lucene
+2026-03-24T19:07:20.547Z  INFO 8 --- [main] com.structurizr.server.Local             :  - structurizr.themes: /usr/local/structurizr/themes/
+2026-03-24T19:07:20.548Z  INFO 8 --- [main] com.structurizr.server.Local             :  - structurizr.workspace.maxsize: 1MB
+2026-03-24T19:07:20.548Z  INFO 8 --- [main] com.structurizr.server.Local             :  - structurizr.workspace.threads: 10
+2026-03-24T19:07:20.548Z  INFO 8 --- [main] com.structurizr.server.Local             :  - structurizr.workspaces: 1
+2026-03-24T19:07:20.548Z  INFO 8 --- [main] com.structurizr.server.Local             : ***********************************************************************************
+2026-03-24T19:07:20.548Z  INFO 8 --- [main] com.structurizr.server.Local             : Themes:
+2026-03-24T19:07:20.550Z  INFO 8 --- [main] com.structurizr.server.Local             : ***********************************************************************************
+2026-03-24T20:09:36.646Z ERROR 8 --- [http-nio-8080-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+java.lang.RuntimeException: Local mode is only designed to run via localhost URLs (actual URL was 192.168.68.122)
+	at com.structurizr.server.web.configuration.LocalConfiguration$1.doFilter(LocalConfiguration.java:58) ~[!/:2026.03.06]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar!/:na]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-6.2.15.jar!/:6.2.15]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-6.2.15.jar!/:6.2.15]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231) ~[spring-security-web-6.5.7.jar!/:6.5.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365) ~[spring-security-web-6.5.7.jar!/:6.5.7]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101) ~[spring-security-web-6.5.7.jar!/:6.5.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.7.jar!/:6.5.7]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:125) ~[spring-security-web-6.5.7.jar!/:6.5.7]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119) ~[spring-security-web-6.5.7.jar!/:6.5.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.7.jar!/:6.5.7]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.5.7.jar!/:6.5.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.7.jar!/:6.5.7]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.5.7.jar!/:6.5.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.7.jar!/:6.5.7]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.5.7.jar!/:6.5.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.7.jar!/:6.5.7]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.5.7.jar!/:6.5.7]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.5.7.jar!/:6.5.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.7.jar!/:6.5.7]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.5.7.jar!/:6.5.7]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.5.7.jar!/:6.5.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.15.jar!/:6.2.15]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.7.jar!/:6.5.7]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.5.7.jar!/:6.5.7]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.5.7.jar!/:6.5.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.7.jar!/:6.5.7]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.5.7.jar!/:6.5.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.15.jar!/:6.2.15]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.7.jar!/:6.5.7]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.5.7.jar!/:6.5.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.15.jar!/:6.2.15]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.7.jar!/:6.5.7]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.5.7.jar!/:6.5.7]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.5.7.jar!/:6.5.7]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.15.jar!/:6.2.15]
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52) ~[spring-web-6.2.15.jar!/:6.2.15]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.15.jar!/:6.2.15]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.15.jar!/:6.2.15]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:319) ~[spring-security-config-6.5.7.jar!/:6.5.7]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.15.jar!/:6.2.15]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$4(HandlerMappingIntrospector.java:267) ~[spring-webmvc-6.2.15.jar!/:6.2.15]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.15.jar!/:6.2.15]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.15.jar!/:6.2.15]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:240) ~[spring-security-config-6.5.7.jar!/:6.5.7]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.2.15.jar!/:6.2.15]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.2.15.jar!/:6.2.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar!/:na]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.15.jar!/:6.2.15]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.15.jar!/:6.2.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar!/:na]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.15.jar!/:6.2.15]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.15.jar!/:6.2.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar!/:na]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.15.jar!/:6.2.15]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.15.jar!/:6.2.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-10.1.50.jar!/:na]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88) ~[tomcat-embed-core-10.1.50.jar!/:na]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.50.jar!/:na]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-10.1.50.jar!/:na]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-10.1.50.jar!/:na]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-10.1.50.jar!/:na]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-10.1.50.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.1.50.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.50.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.50.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774) ~[tomcat-embed-core-10.1.50.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.50.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) ~[tomcat-embed-core-10.1.50.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) ~[tomcat-embed-core-10.1.50.jar!/:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.50.jar!/:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+
