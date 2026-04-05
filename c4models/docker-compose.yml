@@ -1,0 +1,16 @@
+services:
+  structurizr:
+    # Using the new consolidated image as recommended by your logs
+    image: structurizr/structurizr:latest
+    container_name: structurizr-hub
+    ports:
+      - "8080:8080"
+    volumes:
+      # This maps your local 'workspace' folder to the container
+      - ./:/usr/local/structurizr
+    # 'local' command tells Structurizr to run in local authoring mode
+    command: local
+    restart: unless-stopped
+    environment:
+      # Optional: Helps with memory management on older hardware
+      - JAVA_OPTS=-Xmx512m -XX:+TieredCompilation -XX:TieredStopAtLevel=1

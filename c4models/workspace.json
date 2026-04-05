@@ -1,290 +1,306 @@
 {
-  "configuration" : { },
-  "description" : "Example for 2008 MacBook Cluster",
-  "documentation" : {
-    "decisions" : [ {
-      "content" : "# 1. Trying out decisions\n\nDate: 2026-03-18\n\n## Status\n\nAccepted\n\nAmended by [2. Second made decision](#2)\n\nSuperseded by [2. Second made decision](#2)\n\n## Context\n\nThe issue motivating this decision, and any context that influences or constrains the decision.\n\n## Decision\n\nThe change that we're proposing or have agreed to implement.\n\n## Consequences\n\nWhat becomes easier or more difficult to do and any risks introduced by the change that will need to be mitigated.\n",
-      "date" : "2026-03-18T00:00:00Z",
-      "format" : "Markdown",
-      "id" : "1",
-      "links" : [ {
-        "description" : "Amended by",
-        "id" : "2"
-      } ],
-      "status" : "Accepted",
-      "title" : "Trying out decisions"
-    }, {
-      "content" : "# 2. Second made decision\n\nDate: 2026-03-18\n\n## Status\n\nAccepted\n\nAmends [1. Trying out decisions](#1)\n\nSupersedes [1. Trying out decisions](#1)\n\n## Context\n\nThe issue motivating this decision, and any context that influences or constrains the decision.\n\n## Decision\n\nThe change that we're proposing or have agreed to implement.\n\n## Consequences\n\nWhat becomes easier or more difficult to do and any risks introduced by the change that will need to be mitigated.\n",
-      "date" : "2026-03-18T00:00:00Z",
-      "format" : "Markdown",
-      "id" : "2",
-      "links" : [ {
-        "description" : "Amends",
-        "id" : "1"
-      } ],
-      "status" : "Accepted",
-      "title" : "Second made decision"
-    } ]
-  },
   "id" : 1,
-  "lastModifiedAgent" : "structurizr-ui",
-  "lastModifiedDate" : "2026-03-19T17:42:46Z",
+  "name" : "Teaching Architecture",
+  "description" : "Example for 2008 MacBook Cluster",
+  "lastModifiedDate" : "2026-03-25T12:50:26Z",
+  "lastModifiedAgent" : "structurizr-javascript",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlICJUZWFjaGluZyBBcmNoaXRlY3R1cmUiICJFeGFtcGxlIGZvciAyMDA4IE1hY0Jvb2sgQ2x1c3RlciIgewoKICAgICFpZGVudGlmaWVycyBoaWVyYXJjaGljYWwKICAgICFhZHJzIGRvYy9hZHIKCiAgICBtb2RlbCB7CiAgICAgICAgIyAxLiBQZW9wbGUgKEFjdG9ycykKICAgICAgICBzdHVkZW50ID0gcGVyc29uICJTdHVkZW50IiAiTGVhcm5zIHNvZnR3YXJlIGFyY2hpdGVjdHVyZS4iICJVc2VyIgogICAgICAgIHByb2Zlc3NvciA9IHBlcnNvbiAiUHJvZmVzc29yIFBhY28iICJUZWFjaGVzIHRoZSBjbGFzcyB1c2luZyBhIDIwMDggTWFjQm9vay4iICJVc2VyIgoKICAgICAgICAjIDIuIFNvZnR3YXJlIFN5c3RlbXMKICAgICAgICB0ZWFjaGluZ1N5c3RlbSA9IHNvZnR3YXJlU3lzdGVtICJUZWFjaGluZyBQbGF0Zm9ybSIgIkFsbG93cyBzdHVkZW50cyB0byB2aWV3IEM0IG1vZGVscy4iIHsKICAgICAgICAgICAgCiAgICAgICAgICAgICMgMy4gQ29udGFpbmVycyAoQXBwbGljYXRpb25zL0RhdGEpCiAgICAgICAgICAgIHdlYmFwcCA9IGNvbnRhaW5lciAiV2ViIEFwcGxpY2F0aW9uIiAiUmVhY3QvQ2hyb21pdW0gaW50ZXJmYWNlLiIgIkphdmFTY3JpcHQiCiAgICAgICAgICAgIGFwaSA9IGNvbnRhaW5lciAiQVBJIEdhdGV3YXkiICJIYW5kbGVzIHJlcXVlc3RzIGZvciBhcmNoaXRlY3R1cmUgZGF0YS4iICJQeXRob24vRmFzdEFQSSIKICAgICAgICAgICAgZGIgPSBjb250YWluZXIgIkRhdGFiYXNlIiAiU3RvcmVzIGFyY2hpdGVjdHVyZSBtZXRhZGF0YS4iICJQb3N0Z3JlU1FMIiAiRGF0YWJhc2UiCiAgICAgICAgICAgIAogICAgICAgICAgICAjIEludGVybmFsIFJlbGF0aW9uc2hpcHMKICAgICAgICAgICAgd2ViYXBwIC0+IGFwaSAiTWFrZXMgQVBJIGNhbGxzIHRvIiAiSlNPTi9IVFRQUyIKICAgICAgICAgICAgYXBpIC0+IGRiICJSZWFkcyBmcm9tIGFuZCB3cml0ZXMgdG8iICJTUUwiCiAgICAgICAgfQoKICAgICAgICAjIEV4dGVybmFsIFN5c3RlbXMKICAgICAgICBnaXRodWIgPSBzb2Z0d2FyZVN5c3RlbSAiR2l0SHViIiAiU3RvcmVzIHRoZSBEU0wgc291cmNlIGNvZGUuIiAiRXh0ZXJuYWwiCgogICAgICAgICMgR2xvYmFsIFJlbGF0aW9uc2hpcHMKICAgICAgICBwcm9mZXNzb3IgLT4gdGVhY2hpbmdTeXN0ZW0ud2ViYXBwICJFZGl0cyBtb2RlbHMgdmlhIgogICAgICAgIHN0dWRlbnQgLT4gdGVhY2hpbmdTeXN0ZW0ud2ViYXBwICJWaWV3cyBkaWFncmFtcyBvbiIKICAgICAgICB0ZWFjaGluZ1N5c3RlbS5hcGkgLT4gZ2l0aHViICJQdWxscyBsYXRlc3QgRFNMIGZyb20iCiAgICB9CgogICAgdmlld3MgewogICAgICAgICMgTGV2ZWwgMTogU3lzdGVtIENvbnRleHQKICAgICAgICBzeXN0ZW1Db250ZXh0IHRlYWNoaW5nU3lzdGVtICJDb250ZXh0IiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhdXRvbGF5b3V0IGxyCiAgICAgICAgfQoKICAgICAgICAjIExldmVsIDI6IENvbnRhaW5lciBEaWFncmFtCiAgICAgICAgY29udGFpbmVyIHRlYWNoaW5nU3lzdGVtICJDb250YWluZXJzIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhdXRvbGF5b3V0IHRiCiAgICAgICAgfQoKICAgICAgICAjIExldmVsIDM6IENvbXBvbmVudCBEaWFncmFtIChPcHRpb25hbCAtIHJlcXVpcmVzIG1vcmUgRFNMIGRldGFpbCkKICAgICAgICAKICAgICAgICBzdHlsZXMgewogICAgICAgICAgICBlbGVtZW50ICJVc2VyIiB7IAogICAgICAgICAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZCAiIzA4NDI3YiIgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xvciAiI2ZmZmZmZiIgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaGFwZSBwZXJzb24gCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIlNvZnR3YXJlIFN5c3RlbSIgeyAKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzExNjhiZCAKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkNvbnRhaW5lciIgeyAKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzQzOGRkNSAKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkRhdGFiYXNlIiB7IAogICAgICAgICAgICAgICAgICAgICAgICAgICAgc2hhcGUgY3lsaW5kZXIgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9Cg=="
+  },
+  "configuration" : { },
   "model" : {
     "people" : [ {
-      "description" : "Learns software architecture.",
-      "id" : "1",
-      "name" : "Student",
-      "properties" : {
-        "structurizr.dsl.identifier" : "student"
-      },
-      "relationships" : [ {
-        "description" : "Views diagrams on",
-        "destinationId" : "4",
-        "id" : "12",
-        "sourceId" : "1",
-        "tags" : "Relationship"
-      }, {
-        "description" : "Views diagrams on",
-        "destinationId" : "3",
-        "id" : "13",
-        "linkedRelationshipId" : "12",
-        "sourceId" : "1"
-      } ],
-      "tags" : "Element,Person,User"
-    }, {
-      "description" : "Teaches the class using a 2008 MacBook.",
       "id" : "2",
-      "name" : "Professor Paco",
+      "tags" : "Element,Person,User",
       "properties" : {
         "structurizr.dsl.identifier" : "professor"
       },
+      "name" : "Professor Paco",
+      "description" : "Teaches the class using a 2008 MacBook.",
       "relationships" : [ {
-        "description" : "Edits models via",
-        "destinationId" : "4",
         "id" : "10",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "ffb73094-6766-48b2-9a46-9d373dbefc10"
+        },
         "sourceId" : "2",
-        "tags" : "Relationship"
+        "destinationId" : "4",
+        "description" : "Edits models via"
       }, {
-        "description" : "Edits models via",
-        "destinationId" : "3",
         "id" : "11",
-        "linkedRelationshipId" : "10",
-        "sourceId" : "2"
+        "sourceId" : "2",
+        "destinationId" : "3",
+        "description" : "Edits models via",
+        "linkedRelationshipId" : "10"
       } ],
-      "tags" : "Element,Person,User"
+      "location" : "Unspecified"
+    }, {
+      "id" : "1",
+      "tags" : "Element,Person,User",
+      "properties" : {
+        "structurizr.dsl.identifier" : "student"
+      },
+      "name" : "Student",
+      "description" : "Learns software architecture.",
+      "relationships" : [ {
+        "id" : "13",
+        "sourceId" : "1",
+        "destinationId" : "3",
+        "description" : "Views diagrams on",
+        "linkedRelationshipId" : "12"
+      }, {
+        "id" : "12",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "f410f1e3-2643-4176-9971-107948b16e2f"
+        },
+        "sourceId" : "1",
+        "destinationId" : "4",
+        "description" : "Views diagrams on"
+      } ],
+      "location" : "Unspecified"
     } ],
     "softwareSystems" : [ {
-      "containers" : [ {
-        "description" : "React/Chromium interface.",
-        "documentation" : { },
-        "id" : "4",
-        "name" : "Web Application",
-        "properties" : {
-          "structurizr.dsl.identifier" : "teachingSystem.webapp"
-        },
-        "relationships" : [ {
-          "description" : "Makes API calls to",
-          "destinationId" : "5",
-          "id" : "7",
-          "sourceId" : "4",
-          "tags" : "Relationship",
-          "technology" : "JSON/HTTPS"
-        } ],
-        "tags" : "Element,Container",
-        "technology" : "JavaScript"
-      }, {
-        "description" : "Handles requests for architecture data.",
-        "documentation" : { },
-        "id" : "5",
-        "name" : "API Gateway",
-        "properties" : {
-          "structurizr.dsl.identifier" : "teachingSystem.api"
-        },
-        "relationships" : [ {
-          "description" : "Reads from and writes to",
-          "destinationId" : "6",
-          "id" : "8",
-          "sourceId" : "5",
-          "tags" : "Relationship",
-          "technology" : "SQL"
-        }, {
-          "description" : "Pulls latest DSL from",
-          "destinationId" : "9",
-          "id" : "14",
-          "sourceId" : "5",
-          "tags" : "Relationship"
-        } ],
-        "tags" : "Element,Container",
-        "technology" : "Python/FastAPI"
-      }, {
-        "description" : "Stores architecture metadata.",
-        "documentation" : { },
-        "id" : "6",
-        "name" : "Database",
-        "properties" : {
-          "structurizr.dsl.identifier" : "teachingSystem.db"
-        },
-        "tags" : "Element,Container,Database",
-        "technology" : "PostgreSQL"
-      } ],
-      "description" : "Allows students to view C4 models.",
-      "documentation" : { },
-      "id" : "3",
-      "name" : "Teaching Platform",
-      "properties" : {
-        "structurizr.dsl.identifier" : "teachingSystem"
-      },
-      "relationships" : [ {
-        "description" : "Pulls latest DSL from",
-        "destinationId" : "9",
-        "id" : "15",
-        "linkedRelationshipId" : "14",
-        "sourceId" : "3"
-      } ],
-      "tags" : "Element,Software System"
-    }, {
-      "description" : "Stores the DSL source code.",
-      "documentation" : { },
       "id" : "9",
-      "name" : "GitHub",
+      "tags" : "Element,Software System,External",
       "properties" : {
         "structurizr.dsl.identifier" : "github"
       },
-      "tags" : "Element,Software System,External"
-    } ]
-  },
-  "name" : "Teaching Architecture",
-  "properties" : {
-    "structurizr.inspection.info" : "0",
-    "structurizr.inspection.ignore" : "0",
-    "structurizr.inspection.error" : "9",
-    "structurizr.inspection.warning" : "0"
-  },
-  "views" : {
-    "configuration" : {
-      "branding" : { },
-      "lastSavedView" : "Containers",
-      "metadataSymbols" : "SquareBrackets",
-      "styles" : {
-        "elements" : [ {
-          "background" : "#438dd5",
-          "color" : "#ffffff",
-          "tag" : "Container"
-        }, {
-          "shape" : "Cylinder",
-          "tag" : "Database"
-        }, {
-          "background" : "#1168bd",
-          "color" : "#ffffff",
-          "tag" : "Software System"
-        }, {
-          "background" : "#08427b",
-          "color" : "#ffffff",
-          "shape" : "Person",
-          "tag" : "User"
-        } ]
+      "name" : "GitHub",
+      "description" : "Stores the DSL source code.",
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "3",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "teachingsystem"
       },
-      "terminology" : { }
-    },
-    "containerViews" : [ {
-      "automaticLayout" : {
-        "applied" : true,
-        "edgeSeparation" : 0,
-        "implementation" : "Graphviz",
-        "nodeSeparation" : 300,
-        "rankDirection" : "TopBottom",
-        "rankSeparation" : 300,
-        "vertices" : false
-      },
-      "dimensions" : {
-        "height" : 2699,
-        "width" : 1925
-      },
-      "elements" : [ {
-        "id" : "1",
-        "x" : 200,
-        "y" : 160
-      }, {
-        "id" : "2",
-        "x" : 900,
-        "y" : 160
-      }, {
-        "id" : "4",
-        "x" : 525,
-        "y" : 860
-      }, {
+      "name" : "Teaching Platform",
+      "description" : "Allows students to view C4 models.",
+      "relationships" : [ {
+        "id" : "15",
+        "sourceId" : "3",
+        "destinationId" : "9",
+        "description" : "Pulls latest DSL from",
+        "linkedRelationshipId" : "14"
+      } ],
+      "location" : "Unspecified",
+      "containers" : [ {
         "id" : "5",
-        "x" : 525,
-        "y" : 1460
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "teachingsystem.api"
+        },
+        "name" : "API Gateway",
+        "description" : "Handles requests for architecture data.",
+        "relationships" : [ {
+          "id" : "8",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "f145d6eb-d350-4c96-9617-f2ff567e972f"
+          },
+          "sourceId" : "5",
+          "destinationId" : "6",
+          "description" : "Reads from and writes to",
+          "technology" : "SQL"
+        }, {
+          "id" : "14",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "dcf87194-c3cf-45a0-82c2-89c81b027d21"
+          },
+          "sourceId" : "5",
+          "destinationId" : "9",
+          "description" : "Pulls latest DSL from"
+        } ],
+        "technology" : "Python/FastAPI",
+        "documentation" : { }
       }, {
         "id" : "6",
-        "x" : 525,
-        "y" : 2060
+        "tags" : "Element,Container,Database",
+        "properties" : {
+          "structurizr.dsl.identifier" : "teachingsystem.db"
+        },
+        "name" : "Database",
+        "description" : "Stores architecture metadata.",
+        "technology" : "PostgreSQL",
+        "documentation" : { }
+      }, {
+        "id" : "4",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "teachingsystem.webapp"
+        },
+        "name" : "Web Application",
+        "description" : "React/Chromium interface.",
+        "relationships" : [ {
+          "id" : "7",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "335de17f-29d8-4a08-9bca-79b267ab5c69"
+          },
+          "sourceId" : "4",
+          "destinationId" : "5",
+          "description" : "Makes API calls to",
+          "technology" : "JSON/HTTPS"
+        } ],
+        "technology" : "JavaScript",
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    } ]
+  },
+  "documentation" : {
+    "decisions" : [ {
+      "content" : "# 1. Trying out decisions\n\nDate: 2026-03-18\n\n## Status\n\nAccepted\n\nAmended by [2. Second made decision](#2)\n\nSuperseded by [2. Second made decision](#2)\n\n## Context\n\nThe issue motivating this decision, and any context that influences or constrains the decision.\n\n## Decision\n\nThe change that we're proposing or have agreed to implement.\n\n## Consequences\n\nWhat becomes easier or more difficult to do and any risks introduced by the change that will need to be mitigated.\n",
+      "format" : "Markdown",
+      "id" : "1",
+      "title" : "Trying out decisions",
+      "date" : "2026-03-18T00:00:00Z",
+      "status" : "Accepted",
+      "links" : [ {
+        "id" : "2",
+        "description" : "Amended by"
+      }, {
+        "id" : "2",
+        "description" : "Superseded by"
+      } ]
+    }, {
+      "content" : "# 2. Second made decision\n\nDate: 2026-03-18\n\n## Status\n\nAccepted\n\nAmends [1. Trying out decisions](#1)\n\nSupersedes [1. Trying out decisions](#1)\n\n## Context\n\nThe issue motivating this decision, and any context that influences or constrains the decision.\n\n## Decision\n\nThe change that we're proposing or have agreed to implement.\n\n## Consequences\n\nWhat becomes easier or more difficult to do and any risks introduced by the change that will need to be mitigated.\n",
+      "format" : "Markdown",
+      "id" : "2",
+      "title" : "Second made decision",
+      "date" : "2026-03-18T00:00:00Z",
+      "status" : "Accepted",
+      "links" : [ {
+        "id" : "1",
+        "description" : "Supersedes"
+      }, {
+        "id" : "1",
+        "description" : "Amends"
+      } ]
+    } ]
+  },
+  "views" : {
+    "systemContextViews" : [ {
+      "key" : "Context",
+      "order" : 1,
+      "softwareSystemId" : "3",
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false,
+        "applied" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "2",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "3",
+        "x" : 0,
+        "y" : 0
       }, {
         "id" : "9",
-        "x" : 1275,
-        "y" : 2060
+        "x" : 0,
+        "y" : 0
       } ],
-      "externalSoftwareSystemBoundariesVisible" : false,
-      "key" : "Containers",
-      "name" : "Container View: Teaching Platform",
-      "order" : 2,
       "relationships" : [ {
-        "id" : "10"
+        "id" : "15"
+      }, {
+        "id" : "13"
+      }, {
+        "id" : "11"
+      } ]
+    } ],
+    "containerViews" : [ {
+      "key" : "Containers",
+      "order" : 2,
+      "softwareSystemId" : "3",
+      "dimensions" : {
+        "width" : 1925,
+        "height" : 2691
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false,
+        "applied" : true
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 199,
+        "y" : 200
+      }, {
+        "id" : "2",
+        "x" : 899,
+        "y" : 200
+      }, {
+        "id" : "4",
+        "x" : 524,
+        "y" : 900
+      }, {
+        "id" : "5",
+        "x" : 524,
+        "y" : 1500
+      }, {
+        "id" : "6",
+        "x" : 524,
+        "y" : 2100
+      }, {
+        "id" : "9",
+        "x" : 1274,
+        "y" : 2100
+      } ],
+      "relationships" : [ {
+        "id" : "14"
       }, {
         "id" : "12"
-      }, {
-        "id" : "14"
       }, {
         "id" : "7"
       }, {
         "id" : "8"
-      } ],
-      "softwareSystemId" : "3"
+      }, {
+        "id" : "10"
+      } ]
     } ],
-    "systemContextViews" : [ {
-      "automaticLayout" : {
-        "applied" : true,
-        "edgeSeparation" : 0,
-        "implementation" : "Graphviz",
-        "nodeSeparation" : 300,
-        "rankDirection" : "LeftRight",
-        "rankSeparation" : 300,
-        "vertices" : false
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "User",
+          "background" : "#08427b",
+          "color" : "#ffffff",
+          "shape" : "Person"
+        }, {
+          "tag" : "Software System",
+          "background" : "#1168bd",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "Container",
+          "background" : "#438dd5",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "Database",
+          "shape" : "Cylinder"
+        } ]
       },
-      "dimensions" : {
-        "height" : 1500,
-        "width" : 2300
-      },
-      "elements" : [ {
-        "id" : "1",
-        "x" : 200,
-        "y" : 159
-      }, {
-        "id" : "2",
-        "x" : 200,
-        "y" : 859
-      }, {
-        "id" : "3",
-        "x" : 900,
-        "y" : 559
-      }, {
-        "id" : "9",
-        "x" : 1650,
-        "y" : 559
-      } ],
-      "enterpriseBoundaryVisible" : true,
-      "key" : "Context",
-      "name" : "System Context View: Teaching Platform",
-      "order" : 1,
-      "relationships" : [ {
-        "id" : "11"
-      }, {
-        "id" : "13"
-      }, {
-        "id" : "15"
-      } ],
-      "softwareSystemId" : "3"
-    } ]
+      "terminology" : { },
+      "metadataSymbols" : "SquareBrackets",
+      "lastSavedView" : "Containers"
+    }
   }
 }
