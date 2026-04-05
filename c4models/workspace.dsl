@@ -6,7 +6,7 @@ workspace "Teaching Architecture" "Example for 2008 MacBook Cluster" {
     model {
         # 1. People (Actors)
         student = person "Student" "Learns software architecture." "User"
-        professor = person "Professor Paco" "Teaches the class using a 2008 MacBook." "User"
+        professor = person "Professor" "Teaches the class using Structurizr" "User"
 
         # 2. Software Systems
         teachingSystem = softwareSystem "Teaching Platform" "Allows students to view C4 models." {
