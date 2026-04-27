@@ -1,11 +1,11 @@
 {
   "id" : 1,
-  "name" : "Banking System",
-  "description" : "Layered Architecture using Groups.",
-  "lastModifiedDate" : "2026-04-06T17:33:50Z",
+  "name" : "Log Analytics",
+  "description" : "A standard Pipe and Filter architecture for log ingestion.",
+  "lastModifiedDate" : "2026-04-14T16:45:15Z",
   "lastModifiedAgent" : "structurizr-javascript",
   "properties" : {
-    "structurizr.dsl" : "d29ya3NwYWNlICJCYW5raW5nIFN5c3RlbSIgIkxheWVyZWQgQXJjaGl0ZWN0dXJlIHVzaW5nIEdyb3Vwcy4iIHsKCiAgICBtb2RlbCB7CiAgICAgICAgY3VzdG9tZXIgPSBwZXJzb24gIkJhbmtpbmcgQ3VzdG9tZXIiCiAgICAgICAgCiAgICAgICAgc29mdHdhcmVTeXN0ZW0gPSBzb2Z0d2FyZVN5c3RlbSAiQmFua2luZyBBUEkiIHsKICAgICAgICAgICAgZGF0YWJhc2UgPSBjb250YWluZXIgIkRhdGFiYXNlIiAiU3RvcmVzIHRyYW5zYWN0aW9ucy4iICJSZWxhdGlvbmFsIERCIiAiRGF0YWJhc2UiCiAgICAgICAgICAgIAogICAgICAgICAgICBhcGkgPSBjb250YWluZXIgIkFQSSBBcHBsaWNhdGlvbiIgIlByb3ZpZGVzIGJhbmtpbmcgbG9naWMuIiAiU3ByaW5nIEJvb3QiIHsKICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgZ3JvdXAgIlByZXNlbnRhdGlvbiBMYXllciIgewogICAgICAgICAgICAgICAgICAgIHNpZ25pbkNvbnRyb2xsZXIgPSBjb21wb25lbnQgIlNpZ24taW4gQ29udHJvbGxlciIgIkhhbmRsZXMgbG9naW4gcmVxdWVzdHMuIiAiU3ByaW5nIE1WQyIgIkxheWVyOlByZXNlbnRhdGlvbiIKICAgICAgICAgICAgICAgICAgICBhY2NvdW50c0NvbnRyb2xsZXIgPSBjb21wb25lbnQgIkFjY291bnRzIENvbnRyb2xsZXIiICJQcm92aWRlcyBhY2NvdW50IHN1bW1hcmllcy4iICJTcHJpbmcgTVZDIiAiTGF5ZXI6UHJlc2VudGF0aW9uIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICBncm91cCAiQXBwbGljYXRpb24gTGF5ZXIiIHsKICAgICAgICAgICAgICAgICAgICBhdXRoU2VydmljZSA9IGNvbXBvbmVudCAiU2VjdXJpdHkgU2VydmljZSIgIkhhbmRsZXMgZW5jcnlwdGlvbi4iICJTcHJpbmcgU2VydmljZSIgIkxheWVyOkFwcGxpY2F0aW9uIgogICAgICAgICAgICAgICAgICAgIGFjY291bnRTZXJ2aWNlID0gY29tcG9uZW50ICJBY2NvdW50IFNlcnZpY2UiICJPcmNoZXN0cmF0ZXMgYnVzaW5lc3MgcnVsZXMuIiAiU3ByaW5nIFNlcnZpY2UiICJMYXllcjpBcHBsaWNhdGlvbiIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgZ3JvdXAgIkRvbWFpbiBMYXllciIgewogICAgICAgICAgICAgICAgICAgIGFjY291bnRSZXBvc2l0b3J5ID0gY29tcG9uZW50ICJBY2NvdW50IFJlcG9zaXRvcnkiICJQZXJzaXN0ZW5jZSBsb2dpYy4iICJTcHJpbmcgRGF0YSIgIkxheWVyOkRvbWFpbiIKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAjIFJlbGF0aW9uc2hpcHMgdGhhdCByZXNwZWN0IHRoZSBib3VuZGFyeQogICAgICAgICAgICAgICAgY3VzdG9tZXIgLT4gc2lnbmluQ29udHJvbGxlciAiVXNlcyIKICAgICAgICAgICAgICAgIGN1c3RvbWVyIC0+IGFjY291bnRzQ29udHJvbGxlciAiVXNlcyIKICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgc2lnbmluQ29udHJvbGxlciAtPiBhdXRoU2VydmljZSAiQ2FsbHMiCiAgICAgICAgICAgICAgICBhY2NvdW50c0NvbnRyb2xsZXIgLT4gYWNjb3VudFNlcnZpY2UgIkNhbGxzIgogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICBhY2NvdW50U2VydmljZSAtPiBhY2NvdW50UmVwb3NpdG9yeSAiQWNjZXNzZXMiCiAgICAgICAgICAgICAgICBhY2NvdW50UmVwb3NpdG9yeSAtPiBkYXRhYmFzZSAiU1FML1RDUCIKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICB2aWV3cyB7CiAgICAgICAgY29tcG9uZW50IGFwaSAiQ29tcG9uZW50VmlldyIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgYXV0b0xheW91dCBscgogICAgICAgICAgICBkZXNjcmlwdGlvbiAiVGhlIGNvbXBvbmVudCBkaWFncmFtIHNob3dpbmcgZXhwbGljaXQgbGF5ZXIgYm91bmRhcmllcy4iCiAgICAgICAgfQoKICAgICAgICBzdHlsZXMgewogICAgICAgICAgICBlbGVtZW50ICJMYXllcjpQcmVzZW50YXRpb24iIHsgCiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICMwODQyN2IgCiAgICAgICAgICAgICAgICBjb2xvciAjZmZmZmZmIAogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkxheWVyOkFwcGxpY2F0aW9uIiB7IAogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjMTE2OGJkIAogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZiAKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJMYXllcjpEb21haW4iIHsgCiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICM0MzhkZDUgCiAgICAgICAgICAgICAgICBjb2xvciAjZmZmZmZmCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiRGF0YWJhc2UiIHsgCiAgICAgICAgICAgICAgICBzaGFwZSBDeWxpbmRlcgogICAgICAgICAgICB9CiAgICAgICAgICAgIAogICAgICAgICAgICAjIFN0eWxpbmcgdGhlIGdyb3VwIGJvdW5kYXJpZXMgdGhlbXNlbHZlcwogICAgICAgICAgICBlbGVtZW50ICJHcm91cDpQcmVzZW50YXRpb24gTGF5ZXIiIHsgCiAgICAgICAgICAgICAgICBjb2xvciAjMDg0MjdiIAogICAgICAgICAgICAgICAgYm9yZGVyIGRhc2hlZAogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkdyb3VwOkFwcGxpY2F0aW9uIExheWVyIiB7IAogICAgICAgICAgICAgICAgY29sb3IgIzExNjhiZCAKICAgICAgICAgICAgICAgIGJvcmRlciBkYXNoZWQKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJHcm91cDpEb21haW4gTGF5ZXIiIHsgCiAgICAgICAgICAgICAgICBjb2xvciAjNDM4ZGQ1IAogICAgICAgICAgICAgICAgYm9yZGVyIGRhc2hlZAogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9Cg=="
+    "structurizr.dsl" : "d29ya3NwYWNlICJMb2cgQW5hbHl0aWNzIiAiQSBzdGFuZGFyZCBQaXBlIGFuZCBGaWx0ZXIgYXJjaGl0ZWN0dXJlIGZvciBsb2cgaW5nZXN0aW9uLiIgewoKICAgIG1vZGVsIHsKICAgICAgICBhZG1pbiA9IHBlcnNvbiAiU3lzdGVtIEFkbWluIiAiVmlld3MgcHJvY2Vzc2VkIGxvZ3MuIgogICAgICAgIAogICAgICAgIHN5c3RlbSA9IHNvZnR3YXJlU3lzdGVtICJMb2dnaW5nIFBsYXRmb3JtIiB7CiAgICAgICAgICAgIHN0b3JhZ2UgPSBjb250YWluZXIgIkVsYXN0aWNzZWFyY2giICJTdG9yZXMgcHJvY2Vzc2VkIGxvZ3MuIiAiU2VhcmNoIEVuZ2luZSIgIlR5cGU6U2luayIKICAgICAgICAgICAgCiAgICAgICAgICAgIHBpcGVsaW5lID0gY29udGFpbmVyICJMb2cgUHJvY2Vzc29yIiAiVGhlIHBpcGVsaW5lIGFwcGxpY2F0aW9uLiIgIkdvIC8gRmx1ZW50ZCIgewogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICBncm91cCAiSW5nZXN0aW9uIFN0YWdlIiB7CiAgICAgICAgICAgICAgICAgICAgcmVhZGVyID0gY29tcG9uZW50ICJMb2cgUmVhZGVyIiAiUmVhZHMgcmF3IGZpbGVzIGZyb20gZGlzay4iICJGaWxlIFRhaWxlciIgIlR5cGU6UGlwZSIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgZ3JvdXAgIlRyYW5zZm9ybWF0aW9uIFN0YWdlcyIgewogICAgICAgICAgICAgICAgICAgIHNhbml0aXplciA9IGNvbXBvbmVudCAiUElJIFNhbml0aXplciIgIlJlbW92ZXMgc2Vuc2l0aXZlIGRhdGEgbGlrZSBwYXNzd29yZHMuIiAiRmlsdGVyIiAiVHlwZTpGaWx0ZXIiCiAgICAgICAgICAgICAgICAgICAgZW5yaWNoZXIgPSBjb21wb25lbnQgIkdlb0lQIEVucmljaGVyIiAiQWRkcyBsb2NhdGlvbiBkYXRhIGJhc2VkIG9uIElQIGFkZHJlc3MuIiAiRmlsdGVyIiAiVHlwZTpGaWx0ZXIiCiAgICAgICAgICAgICAgICAgICAgZm9ybWF0dGVyID0gY29tcG9uZW50ICJKU09OIEZvcm1hdHRlciIgIkNvbnZlcnRzIHJhdyB0ZXh0IHRvIHN0cnVjdHVyZWQgSlNPTi4iICJGaWx0ZXIiICJUeXBlOkZpbHRlciIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgZ3JvdXAgIk91dHB1dCBTdGFnZSIgewogICAgICAgICAgICAgICAgICAgIHdyaXRlciA9IGNvbXBvbmVudCAiQnVsayBXcml0ZXIiICJCYXRjaGVzIGxvZ3MgZm9yIGVmZmljaWVudCBzdG9yYWdlLiIgIlBpcGUiICJUeXBlOlBpcGUiCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgIyBUaGUgc2VxdWVudGlhbCBkYXRhIGZsb3cKICAgICAgICAgICAgICAgIHJlYWRlciAtPiBzYW5pdGl6ZXIgIlJhdyBsb2cgc3RyaW5nIgogICAgICAgICAgICAgICAgc2FuaXRpemVyIC0+IGVucmljaGVyICJTYW5pdGl6ZWQgbG9nIgogICAgICAgICAgICAgICAgZW5yaWNoZXIgLT4gZm9ybWF0dGVyICJFbnJpY2hlZCBsb2ciCiAgICAgICAgICAgICAgICBmb3JtYXR0ZXIgLT4gd3JpdGVyICJTdHJ1Y3R1cmVkIEpTT04iCiAgICAgICAgICAgICAgICB3cml0ZXIgLT4gc3RvcmFnZSAiSW5kZXggcmVxdWVzdCIKICAgICAgICAgICAgICAgIGFkbWluIC0+IHN0b3JhZ2UgIlF1ZXJpZXMgbG9ncyIKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICB2aWV3cyB7CiAgICAgICAgY29tcG9uZW50IHBpcGVsaW5lICJQaXBlbGluZVZpZXciIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGF1dG9MYXlvdXQgbHIKICAgICAgICAgICAgZGVzY3JpcHRpb24gIlBpcGVsaW5lIEFyY2hpdGVjdHVyZTogQSBsaW5lYXIgZmxvdyBvZiBkYXRhIHRocm91Z2ggZmlsdGVycy4iCiAgICAgICAgfQoKICAgICAgICBzdHlsZXMgewogICAgICAgICAgICBlbGVtZW50ICJUeXBlOlBpcGUiIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzA4NDI3YgogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIlR5cGU6RmlsdGVyIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICMxMTY4YmQKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJUeXBlOlNpbmsiIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzY2NjY2NgogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICAgICAgc2hhcGUgQ3lsaW5kZXIKICAgICAgICAgICAgfQogICAgICAgICAgICAKICAgICAgICAgICAgIyBHcm91cCBzdHlsaW5nIHVzaW5nIHRoZSAnZWxlbWVudCcgdGFnIHdpdGggJ0dyb3VwOicgcHJlZml4CiAgICAgICAgICAgICMgRWFjaCBhdHRyaWJ1dGUgaXMgc3RyaWN0bHkgb24gaXRzIG93biBsaW5lCiAgICAgICAgICAgIGVsZW1lbnQgIkdyb3VwOkluZ2VzdGlvbiBTdGFnZSIgewogICAgICAgICAgICAgICAgY29sb3IgIzA4NDI3YgogICAgICAgICAgICAgICAgYm9yZGVyIGRhc2hlZAogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkdyb3VwOlRyYW5zZm9ybWF0aW9uIFN0YWdlcyIgewogICAgICAgICAgICAgICAgY29sb3IgIzExNjhiZAogICAgICAgICAgICAgICAgYm9yZGVyIHNvbGlkCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiR3JvdXA6T3V0cHV0IFN0YWdlIiB7CiAgICAgICAgICAgICAgICBjb2xvciAjMDg0MjdiCiAgICAgICAgICAgICAgICBib3JkZXIgZGFzaGVkCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0K"
   },
   "configuration" : { },
   "model" : {
@@ -13,39 +13,25 @@
       "id" : "1",
       "tags" : "Element,Person",
       "properties" : {
-        "structurizr.dsl.identifier" : "customer"
+        "structurizr.dsl.identifier" : "admin"
       },
-      "name" : "Banking Customer",
+      "name" : "System Admin",
+      "description" : "Views processed logs.",
       "relationships" : [ {
-        "id" : "10",
-        "tags" : "Relationship",
-        "properties" : {
-          "structurizr.dsl.identifier" : "d619c696-f22c-4325-8842-d19f4b7e376b"
-        },
-        "sourceId" : "1",
-        "destinationId" : "5",
-        "description" : "Uses"
-      }, {
-        "id" : "13",
-        "tags" : "Relationship",
-        "properties" : {
-          "structurizr.dsl.identifier" : "2513c2c3-079a-4bfe-a879-23a6cc4ae39b"
-        },
-        "sourceId" : "1",
-        "destinationId" : "6",
-        "description" : "Uses"
-      }, {
-        "id" : "11",
-        "sourceId" : "1",
-        "destinationId" : "4",
-        "description" : "Uses",
-        "linkedRelationshipId" : "10"
-      }, {
-        "id" : "12",
+        "id" : "17",
         "sourceId" : "1",
         "destinationId" : "2",
-        "description" : "Uses",
-        "linkedRelationshipId" : "10"
+        "description" : "Queries logs",
+        "linkedRelationshipId" : "16"
+      }, {
+        "id" : "16",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "e4463c41-8d82-450d-a40d-62007f34cf9a"
+        },
+        "sourceId" : "1",
+        "destinationId" : "3",
+        "description" : "Queries logs"
       } ],
       "location" : "Unspecified"
     } ],
@@ -53,132 +39,142 @@
       "id" : "2",
       "tags" : "Element,Software System",
       "properties" : {
-        "structurizr.dsl.identifier" : "softwaresystem"
+        "structurizr.dsl.identifier" : "system"
       },
-      "name" : "Banking API",
+      "name" : "Logging Platform",
       "location" : "Unspecified",
       "containers" : [ {
+        "id" : "3",
+        "tags" : "Element,Container,Type:Sink",
+        "properties" : {
+          "structurizr.dsl.identifier" : "storage"
+        },
+        "name" : "Elasticsearch",
+        "description" : "Stores processed logs.",
+        "technology" : "Search Engine",
+        "documentation" : { }
+      }, {
         "id" : "4",
         "tags" : "Element,Container",
         "properties" : {
-          "structurizr.dsl.identifier" : "api"
+          "structurizr.dsl.identifier" : "pipeline"
         },
-        "name" : "API Application",
-        "description" : "Provides banking logic.",
+        "name" : "Log Processor",
+        "description" : "The pipeline application.",
         "relationships" : [ {
-          "id" : "18",
+          "id" : "15",
           "sourceId" : "4",
           "destinationId" : "3",
-          "description" : "SQL/TCP",
-          "linkedRelationshipId" : "17"
+          "description" : "Index request",
+          "linkedRelationshipId" : "14"
         } ],
-        "technology" : "Spring Boot",
+        "technology" : "Go / Fluentd",
         "components" : [ {
-          "id" : "5",
-          "tags" : "Element,Component,Layer:Presentation",
+          "id" : "8",
+          "tags" : "Element,Component,Type:Filter",
           "properties" : {
-            "structurizr.dsl.identifier" : "signincontroller"
+            "structurizr.dsl.identifier" : "formatter"
           },
-          "name" : "Sign-in Controller",
-          "description" : "Handles login requests.",
+          "name" : "JSON Formatter",
+          "description" : "Converts raw text to structured JSON.",
+          "relationships" : [ {
+            "id" : "13",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "a54bd824-c5d2-4af6-8a13-7721b9999381"
+            },
+            "sourceId" : "8",
+            "destinationId" : "9",
+            "description" : "Structured JSON"
+          } ],
+          "group" : "Transformation Stages",
+          "technology" : "Filter",
+          "documentation" : { }
+        }, {
+          "id" : "9",
+          "tags" : "Element,Component,Type:Pipe",
+          "properties" : {
+            "structurizr.dsl.identifier" : "writer"
+          },
+          "name" : "Bulk Writer",
+          "description" : "Batches logs for efficient storage.",
           "relationships" : [ {
             "id" : "14",
             "tags" : "Relationship",
             "properties" : {
-              "structurizr.dsl.identifier" : "078deaf6-4584-47fd-8bd0-d7f25dfd1225"
-            },
-            "sourceId" : "5",
-            "destinationId" : "7",
-            "description" : "Calls"
-          } ],
-          "group" : "Presentation Layer",
-          "technology" : "Spring MVC",
-          "documentation" : { }
-        }, {
-          "id" : "8",
-          "tags" : "Element,Component,Layer:Application",
-          "properties" : {
-            "structurizr.dsl.identifier" : "accountservice"
-          },
-          "name" : "Account Service",
-          "description" : "Orchestrates business rules.",
-          "relationships" : [ {
-            "id" : "16",
-            "tags" : "Relationship",
-            "properties" : {
-              "structurizr.dsl.identifier" : "c4341fb7-23b1-48e9-abb5-a69ad4e3989b"
-            },
-            "sourceId" : "8",
-            "destinationId" : "9",
-            "description" : "Accesses"
-          } ],
-          "group" : "Application Layer",
-          "technology" : "Spring Service",
-          "documentation" : { }
-        }, {
-          "id" : "7",
-          "tags" : "Element,Component,Layer:Application",
-          "properties" : {
-            "structurizr.dsl.identifier" : "authservice"
-          },
-          "name" : "Security Service",
-          "description" : "Handles encryption.",
-          "group" : "Application Layer",
-          "technology" : "Spring Service",
-          "documentation" : { }
-        }, {
-          "id" : "9",
-          "tags" : "Element,Component,Layer:Domain",
-          "properties" : {
-            "structurizr.dsl.identifier" : "accountrepository"
-          },
-          "name" : "Account Repository",
-          "description" : "Persistence logic.",
-          "relationships" : [ {
-            "id" : "17",
-            "tags" : "Relationship",
-            "properties" : {
-              "structurizr.dsl.identifier" : "f07f9d0a-26b2-40c9-ab9a-33b67c3cb99d"
+              "structurizr.dsl.identifier" : "0717662d-3e2e-4c4e-8dd5-0fcb0a10647e"
             },
             "sourceId" : "9",
             "destinationId" : "3",
-            "description" : "SQL/TCP"
+            "description" : "Index request"
           } ],
-          "group" : "Domain Layer",
-          "technology" : "Spring Data",
+          "group" : "Output Stage",
+          "technology" : "Pipe",
+          "documentation" : { }
+        }, {
+          "id" : "5",
+          "tags" : "Element,Component,Type:Pipe",
+          "properties" : {
+            "structurizr.dsl.identifier" : "reader"
+          },
+          "name" : "Log Reader",
+          "description" : "Reads raw files from disk.",
+          "relationships" : [ {
+            "id" : "10",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "6f045786-43a5-43e1-b75d-04e4d3868826"
+            },
+            "sourceId" : "5",
+            "destinationId" : "6",
+            "description" : "Raw log string"
+          } ],
+          "group" : "Ingestion Stage",
+          "technology" : "File Tailer",
           "documentation" : { }
         }, {
           "id" : "6",
-          "tags" : "Element,Component,Layer:Presentation",
+          "tags" : "Element,Component,Type:Filter",
           "properties" : {
-            "structurizr.dsl.identifier" : "accountscontroller"
+            "structurizr.dsl.identifier" : "sanitizer"
           },
-          "name" : "Accounts Controller",
-          "description" : "Provides account summaries.",
+          "name" : "PII Sanitizer",
+          "description" : "Removes sensitive data like passwords.",
           "relationships" : [ {
-            "id" : "15",
+            "id" : "11",
             "tags" : "Relationship",
             "properties" : {
-              "structurizr.dsl.identifier" : "f5deaa2e-0dc9-4f34-b476-9f23119cca7b"
+              "structurizr.dsl.identifier" : "a29f9dc4-973c-40a2-91cc-f2bc93b8d907"
             },
             "sourceId" : "6",
-            "destinationId" : "8",
-            "description" : "Calls"
+            "destinationId" : "7",
+            "description" : "Sanitized log"
           } ],
-          "group" : "Presentation Layer",
-          "technology" : "Spring MVC",
+          "group" : "Transformation Stages",
+          "technology" : "Filter",
+          "documentation" : { }
+        }, {
+          "id" : "7",
+          "tags" : "Element,Component,Type:Filter",
+          "properties" : {
+            "structurizr.dsl.identifier" : "enricher"
+          },
+          "name" : "GeoIP Enricher",
+          "description" : "Adds location data based on IP address.",
+          "relationships" : [ {
+            "id" : "12",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "80349eed-8e46-4eb6-80e8-3fd58e886fc0"
+            },
+            "sourceId" : "7",
+            "destinationId" : "8",
+            "description" : "Enriched log"
+          } ],
+          "group" : "Transformation Stages",
+          "technology" : "Filter",
           "documentation" : { }
         } ],
-        "documentation" : { }
-      }, {
-        "id" : "3",
-        "tags" : "Element,Container,Database",
-        "properties" : {
-          "structurizr.dsl.identifier" : "database"
-        },
-        "name" : "Database",
-        "description" : "Stores transactions.",
-        "technology" : "Relational DB",
         "documentation" : { }
       } ],
       "documentation" : { }
@@ -187,12 +183,12 @@
   "documentation" : { },
   "views" : {
     "componentViews" : [ {
-      "key" : "ComponentView",
+      "key" : "PipelineView",
       "order" : 1,
-      "description" : "The component diagram showing explicit layer boundaries.",
+      "description" : "Pipeline Architecture: A linear flow of data through filters.",
       "dimensions" : {
-        "width" : 3850,
-        "height" : 1505
+        "width" : 4640,
+        "height" : 905
       },
       "automaticLayout" : {
         "implementation" : "Graphviz",
@@ -206,44 +202,38 @@
       "containerId" : "4",
       "externalContainerBoundariesVisible" : true,
       "elements" : [ {
-        "id" : "1",
-        "x" : 199,
-        "y" : 540
-      }, {
         "id" : "3",
-        "x" : 3199,
-        "y" : 840
+        "x" : 3990,
+        "y" : 239
       }, {
         "id" : "5",
-        "x" : 949,
-        "y" : 240
+        "x" : 240,
+        "y" : 239
       }, {
         "id" : "6",
-        "x" : 949,
-        "y" : 840
+        "x" : 990,
+        "y" : 239
       }, {
         "id" : "7",
-        "x" : 1699,
-        "y" : 240
+        "x" : 1740,
+        "y" : 239
       }, {
         "id" : "8",
-        "x" : 1699,
-        "y" : 840
+        "x" : 2490,
+        "y" : 239
       }, {
         "id" : "9",
-        "x" : 2449,
-        "y" : 840
+        "x" : 3240,
+        "y" : 239
       } ],
       "relationships" : [ {
-        "id" : "17"
-      }, {
-        "id" : "16"
-      }, {
-        "id" : "15"
-      }, {
         "id" : "14"
       }, {
         "id" : "13"
+      }, {
+        "id" : "12"
+      }, {
+        "id" : "11"
       }, {
         "id" : "10"
       } ]
@@ -252,37 +242,35 @@
       "branding" : { },
       "styles" : {
         "elements" : [ {
-          "tag" : "Layer:Presentation",
+          "tag" : "Type:Pipe",
           "background" : "#08427b",
           "color" : "#ffffff"
         }, {
-          "tag" : "Layer:Application",
+          "tag" : "Type:Filter",
           "background" : "#1168bd",
           "color" : "#ffffff"
         }, {
-          "tag" : "Layer:Domain",
-          "background" : "#438dd5",
-          "color" : "#ffffff"
-        }, {
-          "tag" : "Database",
+          "tag" : "Type:Sink",
+          "background" : "#666666",
+          "color" : "#ffffff",
           "shape" : "Cylinder"
         }, {
-          "tag" : "Group:Presentation Layer",
+          "tag" : "Group:Ingestion Stage",
           "color" : "#08427b",
           "border" : "Dashed"
         }, {
-          "tag" : "Group:Application Layer",
+          "tag" : "Group:Transformation Stages",
           "color" : "#1168bd",
-          "border" : "Dashed"
+          "border" : "Solid"
         }, {
-          "tag" : "Group:Domain Layer",
-          "color" : "#438dd5",
+          "tag" : "Group:Output Stage",
+          "color" : "#08427b",
           "border" : "Dashed"
         } ]
       },
       "terminology" : { },
       "metadataSymbols" : "SquareBrackets",
-      "lastSavedView" : "ComponentView"
+      "lastSavedView" : "PipelineView"
     }
   }
 }

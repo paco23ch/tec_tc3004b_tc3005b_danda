@@ -1,75 +1,72 @@
-workspace "Banking System" "Layered Architecture using Groups." {
+workspace "Log Analytics" "A standard Pipe and Filter architecture for log ingestion." {
 
     model {
-        customer = person "Banking Customer"
+        admin = person "System Admin" "Views processed logs."
         
-        softwareSystem = softwareSystem "Banking API" {
-            database = container "Database" "Stores transactions." "Relational DB" "Database"
+        system = softwareSystem "Logging Platform" {
+            storage = container "Elasticsearch" "Stores processed logs." "Search Engine" "Type:Sink"
             
-            api = container "API Application" "Provides banking logic." "Spring Boot" {
+            pipeline = container "Log Processor" "The pipeline application." "Go / Fluentd" {
                 
-                group "Presentation Layer" {
-                    signinController = component "Sign-in Controller" "Handles login requests." "Spring MVC" "Layer:Presentation"
-                    accountsController = component "Accounts Controller" "Provides account summaries." "Spring MVC" "Layer:Presentation"
+                group "Ingestion Stage" {
+                    reader = component "Log Reader" "Reads raw files from disk." "File Tailer" "Type:Pipe"
                 }
                 
-                group "Application Layer" {
-                    authService = component "Security Service" "Handles encryption." "Spring Service" "Layer:Application"
-                    accountService = component "Account Service" "Orchestrates business rules." "Spring Service" "Layer:Application"
+                group "Transformation Stages" {
+                    sanitizer = component "PII Sanitizer" "Removes sensitive data like passwords." "Filter" "Type:Filter"
+                    enricher = component "GeoIP Enricher" "Adds location data based on IP address." "Filter" "Type:Filter"
+                    formatter = component "JSON Formatter" "Converts raw text to structured JSON." "Filter" "Type:Filter"
                 }
                 
-                group "Domain Layer" {
-                    accountRepository = component "Account Repository" "Persistence logic." "Spring Data" "Layer:Domain"
+                group "Output Stage" {
+                    writer = component "Bulk Writer" "Batches logs for efficient storage." "Pipe" "Type:Pipe"
                 }
 
-                # Relationships that respect the boundary
-                customer -> signinController "Uses"
-                customer -> accountsController "Uses"
-                
-                signinController -> authService "Calls"
-                accountsController -> accountService "Calls"
-                
-                accountService -> accountRepository "Accesses"
-                accountRepository -> database "SQL/TCP"
+                # The sequential data flow
+                reader -> sanitizer "Raw log string"
+                sanitizer -> enricher "Sanitized log"
+                enricher -> formatter "Enriched log"
+                formatter -> writer "Structured JSON"
+                writer -> storage "Index request"
+                admin -> storage "Queries logs"
             }
         }
     }
 
     views {
-        component api "ComponentView" {
+        component pipeline "PipelineView" {
             include *
             autoLayout lr
-            description "The component diagram showing explicit layer boundaries."
+            description "Pipeline Architecture: A linear flow of data through filters."
         }
 
         styles {
-            element "Layer:Presentation" { 
-                background #08427b 
-                color #ffffff 
-            }
-            element "Layer:Application" { 
-                background #1168bd 
-                color #ffffff 
-            }
-            element "Layer:Domain" { 
-                background #438dd5 
+            element "Type:Pipe" {
+                background #08427b
                 color #ffffff
             }
-            element "Database" { 
+            element "Type:Filter" {
+                background #1168bd
+                color #ffffff
+            }
+            element "Type:Sink" {
+                background #666666
+                color #ffffff
                 shape Cylinder
             }
             
-            # Styling the group boundaries themselves
-            element "Group:Presentation Layer" { 
-                color #08427b 
+            # Group styling using the 'element' tag with 'Group:' prefix
+            # Each attribute is strictly on its own line
+            element "Group:Ingestion Stage" {
+                color #08427b
                 border dashed
             }
-            element "Group:Application Layer" { 
-                color #1168bd 
-                border dashed
+            element "Group:Transformation Stages" {
+                color #1168bd
+                border solid
             }
-            element "Group:Domain Layer" { 
-                color #438dd5 
+            element "Group:Output Stage" {
+                color #08427b
                 border dashed
             }
         }
