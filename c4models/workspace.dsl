@@ -1,4 +1,5 @@
 workspace "Microservices System" "Decoupled services with per-service databases." {
+    !adrs doc/adr
 
     model {
         webApp = person "Web Client" "User via browser."
